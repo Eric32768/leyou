@@ -12,12 +12,10 @@
         <module name="leyou-registry" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="leyou-commom" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyou-commom" options="-parameters" />
       <module name="leyou-gateway" options="-parameters" />
       <module name="leyou-item-interface" options="-parameters" />
       <module name="leyou-item-service" options="-parameters" />
